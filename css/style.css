@@ -100,3 +100,10 @@ body {
     margin: 5px 0;
     text-align: left;
 }
+
+.avatar {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
