@@ -5,7 +5,7 @@ $('#send_button').click(function() {
         $('#input_field').val('');
 
         $.ajax({
-            url: 'https://gamenumber.deta.page/chat', // Replace with your server URL
+            url: 'http://127.0.0.1:5000/chat', // Replace with your server URL
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({ message: userInput }),
